@@ -5,7 +5,7 @@ What Google Workspace, Microsoft 365, Outlook.com, Zoho Mail, Hostinger Titan an
 - [`data/limits.json`](data/limits.json), the full dataset with notes
 - [`data/limits.csv`](data/limits.csv), one row per limit, easy to open in a spreadsheet
 
-Maintained by [Warmerly](https://warmerly.com). The readable version, with advice on how many cold emails are actually safe to send, is at [warmerly.com/email-outreach/limits](https://warmerly.com/email-outreach/limits).
+Maintained by [Warmerly](https://warmerly.com). The readable version, with advice on how many cold emails are actually safe to send, is at [warmerly.com/email-outreach/limits](https://warmerly.com/email-outreach/limits). A companion dataset covers [what Gmail, Yahoo and Outlook.com require from bulk senders](https://github.com/WarmerlyApp/bulk-sender-requirements).
 
 ## The figures
 
