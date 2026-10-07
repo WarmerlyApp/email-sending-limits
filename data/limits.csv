@@ -1,0 +1,30 @@
+provider,status,limit,value,source
+Google Workspace (Gmail),confirmed,messages_per_day,2000,https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace
+Google Workspace (Gmail),confirmed,messages_per_day_trial_account,500,https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace
+Google Workspace (Gmail),confirmed,external_recipients_per_message,500,https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace
+Google Workspace (Gmail),confirmed,external_recipients_per_day,3000,https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace
+Google Workspace (Gmail),confirmed,external_recipients_per_day_trial_account,500,https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace
+Google Workspace (Gmail),confirmed,recipients_per_message_over_smtp_pop_imap,100,https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace
+Microsoft 365 (Exchange Online),confirmed,recipients_per_day,10000,https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits
+Microsoft 365 (Exchange Online),confirmed,recipients_per_message,1000,https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits
+Microsoft 365 (Exchange Online),confirmed,messages_per_minute,30,https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits
+Outlook.com,confirmed,microsoft_365_subscriber_recipients_per_day,5000,https://support.microsoft.com/en-us/office/sending-limits-in-outlook-com-279ee200-594c-40f0-9ec8-bb6af7735c2e
+Outlook.com,confirmed,microsoft_365_subscriber_recipients_per_message,500,https://support.microsoft.com/en-us/office/sending-limits-in-outlook-com-279ee200-594c-40f0-9ec8-bb6af7735c2e
+Outlook.com,confirmed,microsoft_365_subscriber_non_relationship_recipients_per_day,1000,https://support.microsoft.com/en-us/office/sending-limits-in-outlook-com-279ee200-594c-40f0-9ec8-bb6af7735c2e
+Outlook.com,confirmed,free_account_recipients_per_day,not published,https://support.microsoft.com/en-us/office/sending-limits-in-outlook-com-279ee200-594c-40f0-9ec8-bb6af7735c2e
+Outlook.com,confirmed,free_account_recipients_per_message,not published,https://support.microsoft.com/en-us/office/sending-limits-in-outlook-com-279ee200-594c-40f0-9ec8-bb6af7735c2e
+Zoho Mail,confirmed,external_emails_per_hour_min,50,https://www.zoho.com/mail/help/adminconsole/rates-and-limits.html
+Zoho Mail,confirmed,external_emails_per_hour_max,500,https://www.zoho.com/mail/help/adminconsole/rates-and-limits.html
+Zoho Mail,confirmed,internal_emails_per_hour,1000,https://www.zoho.com/mail/help/adminconsole/rates-and-limits.html
+Zoho Mail,confirmed,recipients_per_message_paid,150,https://www.zoho.com/mail/help/adminconsole/rates-and-limits.html
+Zoho Mail,confirmed,recipients_per_message_free,100,https://www.zoho.com/mail/help/adminconsole/rates-and-limits.html
+Hostinger Titan Email,confirmed,free.per_mailbox_per_hour,50,https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/
+Hostinger Titan Email,confirmed,free.per_mailbox_per_day,300,https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/
+Hostinger Titan Email,confirmed,business.per_mailbox_per_hour,200,https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/
+Hostinger Titan Email,confirmed,business.per_mailbox_per_day,500,https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/
+Hostinger Titan Email,confirmed,enterprise.per_mailbox_per_hour,300,https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/
+Hostinger Titan Email,confirmed,enterprise.per_mailbox_per_day,1000,https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/
+Hostinger Titan Email,confirmed,recipients_per_message,not published,https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/
+GoDaddy Workspace Email,unconfirmed,recipients_per_day,500,https://www.godaddy.com/help/workspace-email-account-limitations-2949
+GoDaddy Workspace Email,unconfirmed,recipients_per_hour,300,https://www.godaddy.com/help/workspace-email-account-limitations-2949
+GoDaddy Workspace Email,unconfirmed,recipients_per_minute,200,https://www.godaddy.com/help/workspace-email-account-limitations-2949

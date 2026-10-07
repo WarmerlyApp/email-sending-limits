@@ -1,0 +1,89 @@
+{
+  "title": "Email provider sending limits",
+  "license": "CC-BY-4.0",
+  "maintainer": "Warmerly (https://warmerly.com)",
+  "last_checked": "2026-10-07",
+  "note": "Figures are copied from each provider's own documentation on the date above. Providers change them without notice. A null value means the provider does not publish a figure, not that there is no limit.",
+  "providers": [
+    {
+      "id": "google-workspace",
+      "name": "Google Workspace (Gmail)",
+      "status": "confirmed",
+      "source": "https://knowledge.workspace.google.com/admin/gmail/gmail-sending-limits-in-google-workspace",
+      "limits": {
+        "messages_per_day": 2000,
+        "messages_per_day_trial_account": 500,
+        "external_recipients_per_message": 500,
+        "external_recipients_per_day": 3000,
+        "external_recipients_per_day_trial_account": 500,
+        "recipients_per_message_over_smtp_pop_imap": 100
+      },
+      "notes": "Applied over a rolling 24 hours. After a limit is hit, sending is blocked for up to 24 hours."
+    },
+    {
+      "id": "microsoft-365-exchange-online",
+      "name": "Microsoft 365 (Exchange Online)",
+      "status": "confirmed",
+      "source": "https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits",
+      "limits": {
+        "recipients_per_day": 10000,
+        "recipients_per_message": 1000,
+        "messages_per_minute": 30
+      },
+      "notes": "Recipient limit per message is customizable up to 1000. A tenant-level external recipient rate limit also exists; see the source page."
+    },
+    {
+      "id": "outlook-com",
+      "name": "Outlook.com",
+      "status": "confirmed",
+      "source": "https://support.microsoft.com/en-us/office/sending-limits-in-outlook-com-279ee200-594c-40f0-9ec8-bb6af7735c2e",
+      "limits": {
+        "microsoft_365_subscriber_recipients_per_day": 5000,
+        "microsoft_365_subscriber_recipients_per_message": 500,
+        "microsoft_365_subscriber_non_relationship_recipients_per_day": 1000,
+        "free_account_recipients_per_day": null,
+        "free_account_recipients_per_message": null
+      },
+      "notes": "Microsoft says limits vary with usage history and are lower for non-subscribers, but publishes no figure for free accounts. A non-relationship recipient is someone you have never emailed before. A new account starts on a low quota that rises as it builds credibility."
+    },
+    {
+      "id": "zoho-mail",
+      "name": "Zoho Mail",
+      "status": "confirmed",
+      "source": "https://www.zoho.com/mail/help/adminconsole/rates-and-limits.html",
+      "limits": {
+        "external_emails_per_hour_min": 50,
+        "external_emails_per_hour_max": 500,
+        "internal_emails_per_hour": 1000,
+        "recipients_per_message_paid": 150,
+        "recipients_per_message_free": 100
+      },
+      "notes": "The external hourly limit is dynamic and depends on sender reputation, recipient engagement and contact quality."
+    },
+    {
+      "id": "hostinger-titan",
+      "name": "Hostinger Titan Email",
+      "status": "confirmed",
+      "source": "https://www.hostinger.com/support/5326155-parameters-and-limits-of-titan-email-at-hostinger/",
+      "limits": {
+        "free": { "per_mailbox_per_hour": 50, "per_mailbox_per_day": 300 },
+        "business": { "per_mailbox_per_hour": 200, "per_mailbox_per_day": 500 },
+        "enterprise": { "per_mailbox_per_hour": 300, "per_mailbox_per_day": 1000 },
+        "recipients_per_message": null
+      },
+      "notes": "The source page does not state a per-message recipient limit."
+    },
+    {
+      "id": "godaddy-workspace-email",
+      "name": "GoDaddy Workspace Email",
+      "status": "unconfirmed",
+      "source": "https://www.godaddy.com/help/workspace-email-account-limitations-2949",
+      "limits": {
+        "recipients_per_day": 500,
+        "recipients_per_hour": 300,
+        "recipients_per_minute": 200
+      },
+      "notes": "Figures come from search-engine summaries of GoDaddy's help page. GoDaddy returns 403 to automated requests, so we could not read the page ourselves on 2026-10-07. Treat as unconfirmed and check the source. A correction with a screenshot or quote is welcome."
+    }
+  ]
+}
